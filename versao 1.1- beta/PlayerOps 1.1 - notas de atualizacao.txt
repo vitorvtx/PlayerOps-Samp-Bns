@@ -1,0 +1,23 @@
+PlayerOps v1.1 — O que mudou
+
+• Versão anterior (1.0): Anti-AFK apertava W a cada 1 minuto.
+• Nesta versão (1.1): o intervalo do Anti-AFK foi reduzido para 20 segundos.
+• Objetivo: manter o personagem mais ativo e evitar kick por AFK com mais frequência.
+• O resto do script permanece igual à 1.0.
+• Painel continua abrindo apenas com o comando /playerops.
+• Tecla F6 não existe mais (removida em atualização anterior).
+• Nenhuma mensagem é enviada no chat — o script é silencioso.
+• Módulos disponíveis no painel:
+  - Auto Cofre (sacar fundos + /ggrana)
+  - Anti-AFK (agora a cada 20s)
+  - Auto Droga (Metanfetamina)
+  - Auto Roubo Cofre (/pegargrana)
+  - Auto Trabalho BNS (Caminhoneiro + Lixeiro)
+• Como atualizar: substitua o arquivo antigo pelo novo PlayerOps.lua
+  na pasta moonloader e reinicie o jogo (ou recarregue os scripts).
+• Comando do painel: /playerops
+• Salvar posição do lixão: /playeropslixao (ou botão no painel)
+• Use o checkbox “Anti-AFK (W a cada 20s)” para ligar/desligar.
+• Se algo não funcionar, confira se o script carregou e se o módulo
+  está ativado no painel.
+• Esta é a versão estável atual para uso.
