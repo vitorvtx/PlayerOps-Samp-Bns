@@ -1,0 +1,20 @@
+PlayerOps v1.2 — O que mudou nesta atualização
+
+• Auto Droga: removidas todas as teclas físicas (Enter / números).
+• Antes o script simulava Enter no teclado; isso podia ser lido
+  como F / entrar em veículo e você entrava na moto próxima.
+• Agora o Auto Droga usa só resposta de dialog SA-MP
+  (sampSendDialogResponse) — sem apertar tecla nenhuma.
+• Auto Droga continua sem movimento e só coleta se você
+  estiver perto do ponto (até 5 m).
+• Auto Cofre: removido o /ggrana automático (não funcionava bem).
+• Auto Cofre agora só saca: /propriedade sacar [valor].
+• Novo módulo GGrana no painel (funciona em qualquer local):
+  - Mostra o dinheiro atual na mão do player.
+  - Botão "Guardar tudo (/ggrana)" envia /ggrana [valor].
+• Você escolhe quando guardar; não depende do cofre.
+• Painel continua só com /playerops.
+• Nenhuma mensagem no chat — script silencioso.
+• Como atualizar: substitua o PlayerOps.lua na pasta moonloader
+  e reinicie o jogo (ou recarregue os scripts).
+• Esta continua sendo a versão 1.2 (atualização da mesma série).
