@@ -1,0 +1,52 @@
+PlayerOps v1.3 — Changelog detalhado
+
+• Versão anterior: 1.2
+• Esta versão: 1.3 (estável atual)
+
+COMANDOS
+• Novo comando /gg — guarda todo o dinheiro da mão
+  sem abrir o painel (lê o valor e envia /ggrana [valor]).
+• /playerops — continua abrindo/fechando o painel.
+• /playeropslixao — continua salvando a posição do lixão.
+• Dica no painel atualizada: mostra /playerops e /gg.
+
+MÓDULO GGRANA
+• Seção própria no painel (funciona em qualquer local).
+• Mostra em tempo real o dinheiro que está na mão.
+• Botão "Guardar tudo (/ggrana)" no painel.
+• Mesma lógica do /gg: lê a mão e envia /ggrana [valor].
+• Não depende mais do Auto Cofre para guardar dinheiro.
+
+AUTO COFRE
+• Agora só saca fundos da empresa (/propriedade sacar).
+• O /ggrana automático foi removido desse módulo
+  (passou a ser manual via /gg ou botão do painel).
+
+AUTO DROGA
+• Sem movimento automático (não anda sozinho).
+• Sem teclas físicas (Enter / números / F).
+• Usa resposta de dialog SA-MP (sampSendDialogResponse).
+• Corrige o problema de entrar em moto/veículo próximo
+  que acontecia ao simular Enter no teclado.
+• Só coleta se você estiver perto do ponto (até 5 m).
+
+REMOÇÕES (já consolidadas nesta linha)
+• Anti-AFK removido por completo (não volta nesta versão).
+• Tecla F6 removida (painel só por comando).
+• Nenhuma mensagem no chat — script silencioso.
+
+MÓDULOS NO PAINEL
+• Auto Cofre (sacar fundos)
+• GGrana (valor na mão + guardar)
+• Auto Droga (Metanfetamina)
+• Auto Roubo Cofre (/pegargrana)
+• Auto Trabalho BNS (Caminhoneiro + Lixeiro)
+
+COMO ATUALIZAR
+• Substitua o PlayerOps.lua antigo na pasta moonloader
+  pelo arquivo desta versão 1.3.
+• Reinicie o jogo ou recarregue os scripts.
+• Use /gg para guardar dinheiro rápido sem abrir o menu.
+• Use /playerops para o painel completo.
+
+Esta é a versão 1.3 — atual estável para distribuição.
