@@ -1,0 +1,17 @@
+PlayerOps v1.4 — O que mudou
+
+• Versão anterior: 1.3
+• Esta versão: 1.4
+
+• Código revisado e otimizado de ponta a ponta.
+• Estrutura interna mais limpa e organizada.
+• Remoção de trechos e dependências desnecessárias.
+• Leitura e manutenção do script mais simples.
+• Mesmo comportamento dos módulos e comandos.
+• Nenhuma mudança de uso para o player.
+• Painel, /playerops, /gg e /playeropslixao iguais.
+• Continua silencioso (sem mensagens no chat).
+• Foco desta build: estabilidade e performance do código.
+• Como atualizar: troque o arquivo na pasta moonloader
+  e reinicie o jogo (ou recarregue os scripts).
+• Esta é a versão 1.4 — atual estável.
