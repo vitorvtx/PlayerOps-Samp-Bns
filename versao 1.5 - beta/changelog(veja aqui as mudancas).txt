@@ -1,0 +1,55 @@
+PlayerOps v1.5 — Changelog completo (desde a 1.4)
+
+• Versão anterior: 1.4
+• Esta versão: 1.5
+
+CORREÇÕES
+• Correção crítica: o script carregava no MoonLoader mas não
+  iniciava de verdade (comandos e loop não rodavam).
+• Agora aguarda o SA-MP ficar disponível antes de registrar
+  comandos e iniciar o funcionamento.
+
+PAINEL
+• Painel reorganizado em abas:
+  - Modulos
+  - Propriedade
+  - Extras
+• Navegação mais clara entre funções principais e extras.
+
+ABA MODULOS
+• Auto Droga, Auto Roubo e Auto Trabalho permanecem aqui.
+• Config do Auto Trabalho continua nesta aba quando ativo.
+• Detecção automática de emprego via /rg ao ligar o
+  Auto Trabalho (primeiro emprego suportado: Caminhoneiro
+  ou Lixeiro; se houver dois no mod, usa só o primeiro).
+• Sem botão manual de detectar emprego.
+
+ABA PROPRIEDADE (nova)
+• Manager de propriedade integrado ao PlayerOps.
+• Mostra fundos atuais da propriedade.
+• Sacar tudo: um clique saca o valor inteiro dos fundos
+  (substitui o antigo auto-sacar contínuo).
+• Depositar: atalhos 50k, 100k, 150k, 200k ou valor custom.
+• Pedir insumos: 1 (desativa compra), 5k, 10k e 20k.
+• Preço de insumo: 10, 20, 30, 40, 50 ou valor custom.
+• Comandos usados: /propriedade depositar, sacar,
+  pedirinsumos e precoinsumo.
+
+ABA EXTRAS
+• GGrana: mostra dinheiro na mão + botão guardar tudo.
+• Comando /gg continua funcionando sem abrir o painel.
+• Opção de largar armas após /kitvip (liga/desliga).
+• Quando ativo: após qualquer /kitvip, seleciona cada arma
+  e usa /largararma, mantendo só faca, desert, m4 e sniper.
+• Intervalo de 4 segundos entre cada /largararma.
+
+REMOÇÕES / MUDANÇAS DE COMPORTAMENTO
+• Auto Cofre automático removido (não saca sozinho em loop).
+• Saque da propriedade passou a ser manual (botão Sacar tudo).
+
+GERAL
+• Continua silencioso (sem mensagens no chat).
+• Comandos: /playerops | /gg | /playeropslixao
+• Como atualizar: substitua o PlayerOps.lua na pasta
+  moonloader e reinicie o jogo (ou recarregue os scripts).
+• Esta é a versão 1.5 — atual estável.
