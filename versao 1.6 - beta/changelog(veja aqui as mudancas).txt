@@ -1,0 +1,27 @@
+PlayerOps v1.6 — O que entrou nesta build
+
+PROPRIEDADE
+• Sacar e depositar só a até 2 m do cofre
+  (Fundos da empresa / bolsa de dinheiro).
+• Pedir insumos e preço só a até 2 m da propriedade
+  (label com Dono / Fundos / Produtos).
+• Longe do local: não envia comando + toast de aviso.
+• Painel mostra se está perto ou longe do cofre/prop.
+
+COMANDOS
+• Removido /playeropslixao.
+• Lixão só pelo botão no Trabalho Manager.
+• Comandos: /playerops | /gg
+
+JÁ INCLUSO NA 1.6
+• Liberação após mensagem de login no servidor.
+• Auto /caixinha no PayDay (Rubi/Diamante).
+• Toast visual (~2s) ao ativar ações.
+• Painel em abas, tema roxo, silencioso no chat.
+
+COMO ATUALIZAR
+• Troque o PlayerOps.lua na moonloader.
+• Reinicie ou recarregue os scripts.
+• Se já estiver logado, reconecte 1x.
+
+Continua sendo a versão 1.6.
