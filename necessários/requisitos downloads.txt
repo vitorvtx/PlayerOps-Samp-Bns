@@ -1,0 +1,147 @@
+================================================================================
+  PlayerOps — LISTA DE DOWNLOADS (tudo necessario para rodar o mod)
+  Atualizado para PlayerOps v1.5
+================================================================================
+
+IMPORTANTE
+- GTA SA precisa ser versao 1.0 US (ou EU 1.0). Steam/Rockstar Launcher NAO funcionam
+  com SA-MP classico sem downgrade.
+- Instale na ordem abaixo.
+- O PlayerOps.lua vai na pasta:  <GTA SA>\moonloader\
+- Nao e necessario .luac / compilacao.
+
+--------------------------------------------------------------------------------
+1) GTA SAN ANDREAS (base do jogo)
+--------------------------------------------------------------------------------
+- Jogo original em DVD / versao 1.0 US
+- Se tiver 2.0: use um patch de downgrade para 1.0 (procure "GTA SA 1.0 downgrader")
+
+--------------------------------------------------------------------------------
+2) SA-MP (cliente multiplayer)
+--------------------------------------------------------------------------------
+Site / mirrors:
+  https://www.sa-mp.mp/downloads/
+  https://sa-mp.community/
+
+Versao comum: SA-MP 0.3.7-R5 (ou a que o SEU servidor exigir, ex.: 0.3.DL)
+
+Instalacao: instalar DENTRO da pasta do GTA SA (onde esta o gta_sa.exe).
+
+--------------------------------------------------------------------------------
+3) MoonLoader (obrigatorio — carrega scripts Lua)
+--------------------------------------------------------------------------------
+Pagina oficial (BlastHack):
+  https://www.blast.hk/moonloader
+  https://www.blast.hk/threads/13305/
+
+Versao que voce ja usa no log: MoonLoader v.026.5-beta
+
+Instalacao: rodar o setup-moonloader.exe e apontar para a pasta do GTA SA.
+Cria a pasta:  <GTA SA>\moonloader\
+
+--------------------------------------------------------------------------------
+4) SAMPFUNCS (recomendado / quase sempre necessario com scripts SA-MP)
+--------------------------------------------------------------------------------
+Thread oficial:
+  https://www.blast.hk/threads/17/
+
+Copiar o .asi correto da sua versao de SA-MP para a pasta raiz do GTA SA.
+
+--------------------------------------------------------------------------------
+5) SAMP.Lua  (obrigatorio para PlayerOps — lib.samp.events)
+--------------------------------------------------------------------------------
+GitHub (FYP):
+  https://github.com/THE-FYP/SAMP.Lua
+  https://github.com/THE-FYP/SAMP.Lua/releases
+
+LuaRocks (manifest moonloader):
+  https://luarocks.org/modules/fyp/samp-lua
+
+Instalacao:
+  Copiar a pasta "samp" inteira para:
+  <GTA SA>\moonloader\lib\samp\
+
+O PlayerOps usa:  require "lib.samp.events"
+
+--------------------------------------------------------------------------------
+6) mimgui  (obrigatorio para o painel /playerops)
+--------------------------------------------------------------------------------
+GitHub (FYP):
+  https://github.com/THE-FYP/mimgui
+  https://github.com/THE-FYP/mimgui/releases
+
+Guaia BlastHack:
+  https://www.blast.hk/threads/66959/
+
+LuaRocks:
+  https://luarocks.org/modules/fyp/mimgui
+
+Instalacao:
+  Copiar a pasta "mimgui" para:
+  <GTA SA>\moonloader\lib\mimgui\
+
+O PlayerOps usa:  require "mimgui"
+Requer MoonLoader v.025+
+
+--------------------------------------------------------------------------------
+7) PACOTE COMPLETO DE LIBS (opcional — atalho)
+--------------------------------------------------------------------------------
+Se preferir baixar varias libs de uma vez:
+  https://github.com/ins1x/samp-essentials
+
+Ainda assim confira se dentro de moonloader/lib/ existem:
+  - mimgui\
+  - samp\   (SAMP.Lua / events)
+
+--------------------------------------------------------------------------------
+8) PlayerOps (o script)
+--------------------------------------------------------------------------------
+Arquivo: PlayerOps.lua
+Colocar em:  <GTA SA>\moonloader\PlayerOps.lua
+
+Comandos no jogo:
+  /playerops     — abrir/fechar o painel
+  /gg            — guardar todo o dinheiro (/ggrana)
+  /playeropslixao — salvar posicao do lixao
+
+--------------------------------------------------------------------------------
+ORDEM RESUMIDA DE INSTALACAO
+--------------------------------------------------------------------------------
+1. GTA SA 1.0
+2. SA-MP (versao do servidor)
+3. MoonLoader
+4. SAMPFUNCS
+5. SAMP.Lua  -> moonloader\lib\samp\
+6. mimgui    -> moonloader\lib\mimgui\
+7. PlayerOps.lua -> moonloader\
+
+Reinicie o jogo, entre no servidor e use /playerops.
+
+--------------------------------------------------------------------------------
+COMO CONFERIR SE CARREGOU
+--------------------------------------------------------------------------------
+Arquivo de log do MoonLoader (exemplo):
+  <GTA SA>\moonloader\moonloader.log
+
+Deve aparecer algo como:
+  PlayerOps: Loaded successfully.
+
+Se der erro de "module 'mimgui' not found":
+  mimgui nao esta em moonloader\lib\
+
+Se der erro de "samp.events":
+  SAMP.Lua nao esta em moonloader\lib\samp\
+
+--------------------------------------------------------------------------------
+O QUE O PlayerOps USA (limite tecnico)
+--------------------------------------------------------------------------------
+- MoonLoader + LuaJIT
+- SA-MP
+- mimgui (painel)
+- lib.samp.events (dialogs, comandos, mensagens)
+- ffi (campos de texto do painel)
+- Nao precisa: encoding, vkeys, keybd_event, .luac
+
+================================================================================
+Fim do arquivo
+================================================================================
