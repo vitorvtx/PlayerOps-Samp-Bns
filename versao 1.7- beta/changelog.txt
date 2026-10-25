@@ -1,0 +1,29 @@
+PlayerOps v1.7 — O que mudou
+
+É DE EXTREMA IMPORTANCIA QUE POR MOTIVOS DE REGRAS DO SERVIDOR ESTÁ PROIBIDO O PEGAR DROGA E O ASSISTENTE DE ROUBO
+
+• Versão anterior: 1.6
+• Esta versão: 1.7
+
+REMOÇÕES
+• Removidos: Pegar Droga e Assistente de roubo
+• Aba "Modulos" removida do painel
+
+PAINEL
+• Abas atuais: Trabalho Manager | Propriedade | Extras
+
+MANTIDO
+• Trabalho Manager (emprego via /rg)
+• Propriedade (sacar/depositar a 2m do cofre;
+  insumos/preço a 2m da propriedade)
+• Extras: GGrana, largar armas após kitvip, auto caixinha
+• Liberação após mensagem de login no servidor
+• Toast visual (~2s), sem mensagens no chat
+• Comandos: /playerops | /gg
+
+COMO ATUALIZAR
+• Substitua o PlayerOps.lua na pasta moonloader
+• Reinicie o jogo ou recarregue os scripts
+• Se já estiver logado, reconecte 1x
+
+Esta é a versão 1.7.
