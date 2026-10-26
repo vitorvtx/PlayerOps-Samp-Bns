@@ -1,0 +1,40 @@
+PlayerOps v1.8 — O que mudou
+
+• Versão anterior: 1.7
+• Esta versão: 1.8
+
+REAUTORIZAÇÃO
+• Pegar Droga e Assistente de roubo voltaram ao painel.
+• Recursos reautorizados pela administração do servidor.
+• Uso dentro das regras do servidor — operação autorizada.
+
+PEGAR DROGA
+• Fluxo ajustado: /trafico → 1º Enter (dialog) →
+  digitar gramas → 2º Enter (dialog), sem tecla física.
+• Respeita o tempo de espera que aparece no chat
+  antes de tentar coletar de novo.
+• Leitura de ponto e quantidade em um único scan
+  (menos carga no cliente).
+
+OTIMIZAÇÃO / PERFORMANCE
+• Código revisado e limpo (trechos desnecessários removidos).
+• Menos varreduras repetidas de textos 3D.
+• Foco em deixar o script mais leve para o player.
+
+PAINEL
+• Abas: Modulos | Trabalho Manager | Propriedade | Extras
+• Modulos: Pegar Droga | Assistente de roubo
+
+MANTIDO
+• Trabalho Manager, Propriedade (2m), Extras (GGrana,
+  largar armas, auto caixinha)
+• Liberação após login no servidor
+• Toast visual (~2s), sem mensagens no chat
+• Comandos: /playerops | /gg
+
+COMO ATUALIZAR
+• Substitua o PlayerOps.lua na pasta moonloader
+• Reinicie o jogo ou recarregue os scripts
+• Se já estiver logado, reconecte 1x
+
+Esta é a versão 1.8.
