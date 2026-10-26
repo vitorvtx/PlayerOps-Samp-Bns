@@ -1,0 +1,45 @@
+PlayerOps v1.9 — O que mudou
+
+• Versão anterior: 1.8.1
+• Esta versão: 1.9
+
+TRABALHO MANAGER
+• Emprego Gari: no /rg pode aparecer "Lixeiro";
+  no mod o nome exibido é sempre Gari.
+• Dialog do Gari: só responde se existir a opção
+  "Ensacar lixos" (não interfere em outros dialogs).
+• Novo emprego: Fabricante de materiais.
+• Compra: 1 clique na qtd (100–1000) envia
+  /materiais produtos [qtd] no ponto de compra.
+• Fabricação: botão iniciar/parar ciclo
+  (/materiais fabricar), com aviso da mesa.
+• Ciclo controlado pela mensagem
+  "... fabricou Xg de materiais" (ignora o nick).
+
+PEGAR DROGA
+• Ao ativar no painel, coleta na hora (sem delay).
+• Fluxo /trafico por dialog (sem tecla física).
+• Respeita cooldown do chat antes de nova tentativa.
+
+AUTO CAIXINHA
+• Conta Rubi: ativa automaticamente ao logar
+  (após leitura do /rg).
+
+CORREÇÕES
+• Campos de texto do painel (ID / valores)
+  voltaram a aceitar digitação.
+• Com painel aberto, módulos pausam para não
+  atrapalhar o teclado.
+
+MANTIDO
+• Caminhoneiro, Propriedade (2m), Extras
+• Liberação após login no servidor
+• Toast visual (~2s), sem spam no chat
+• Comandos: /playerops | /gg
+
+COMO ATUALIZAR
+• Substitua o PlayerOps.lua na pasta moonloader
+• Reinicie o jogo ou recarregue os scripts
+• Se já estiver logado, reconecte 1x
+
+Esta é a versão 1.9.
