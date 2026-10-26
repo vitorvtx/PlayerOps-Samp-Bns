@@ -1,0 +1,26 @@
+PlayerOps v1.8.1 — O que mudou
+
+• Versão anterior: 1.8
+• Esta versão: 1.8.1
+
+CORREÇÃO — CAMPOS DE TEXTO
+• Corrigido bug que impedia digitar IDs e valores
+  nos campos do painel (Trabalho Manager e Propriedade).
+• Com o painel aberto, os módulos pausam para não
+  interferir no teclado (tecla Y, dialogs, comandos).
+• Cursor do mouse forçado ao abrir o menu.
+• Ao abrir /playerops durante coleta, dialog pendente
+  é fechado (evita travar input).
+• Buffer do campo de ID corrigido.
+
+MANTIDO
+• Pegar Droga e Assistente de roubo (reautorizados)
+• Trabalho Manager, Propriedade, Extras
+• Liberação após login, toast visual, sem chat spam
+• Comandos: /playerops | /gg
+
+COMO ATUALIZAR
+• Substitua o PlayerOps.lua na pasta moonloader
+• Reinicie o jogo ou recarregue os scripts
+
+Esta é a versão 1.8.1.
