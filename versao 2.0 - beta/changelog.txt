@@ -1,0 +1,40 @@
+PlayerOps v2.0
+
+Novidades
+• Emprego Gari (exibido no mod; /rg pode vir como Lixeiro)
+• Emprego Fabricante de materiais (compra por clique na qtd +
+  ciclo /materiais fabricar controlado pelo chat)
+• Auto caixinha: conta Rubi ativa sozinha ao logar
+• Guardar dinheiro automático (mínimo configurável; piso R$ 1.000)
+• Botões Reparar VIP e Abastecer VIP nos Extras
+• Feedback visual em toast (canto direito, sem mouse)
+• Status do painel: só a Conta (como no /rg); emprego só no
+  Trabalho Manager quando ligado
+• Detecção de troca de emprego via /rg com o Trabalho ativo
+• Campos numéricos: só dígitos (ID, depósito, preço, mínimo)
+• Módulos continuam ativos com o painel aberto
+
+Resolução de bugs
+• Crash detectarViaRG (função chamada antes de existir)
+• Leitura do dinheiro na mão (GGrana / auto guardar)
+• Pegar Droga: leitura do dialog antes de confirmar; sem tecla física
+• Pegar Droga: desliga sozinho ao afastar do ponto
+• Dialog do Gari: só clica em "Ensacar lixos"
+• Cursor do mouse não fica na tela com o menu fechado
+• Toast não usa mais ImGui (não ativa o mouse)
+• Largar armas: revalida se ainda há arma proibida antes de parar
+• Cooldown do largar armas em 2,7s
+
+Otimização
+• Sim — toasts via render (onD3DPresent) em vez de ImGui extra
+• ImGui só roda com o painel aberto
+• Menos interferência de input com o jogo
+
+Comandos: /playerops | /gg
+
+Como atualizar
+• Substitua o PlayerOps.lua na pasta moonloader
+• Reinicie o jogo ou recarregue os scripts
+• Se já estiver logado, reconecte 1x
+
+Esta é a versão 2.0.
